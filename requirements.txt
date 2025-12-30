@@ -1,0 +1,5 @@
+numpy
+manim
+manim-slides[manim]
+PyQt6
+pynput
