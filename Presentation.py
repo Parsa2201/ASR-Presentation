@@ -14,10 +14,10 @@ toc_items = [
 
 class Presentation(ThreeDSlide):
     def construct(self):
-        t1 = Tex("Explainable AI", font_size=42)
-        t2 = Tex("in Sparse Transformers", font_size=42).next_to(t1, DOWN, buff=0.5)
-        t3 = Tex("Presenters: Parsa Salamatipour \& Ali Hasan Yazdi", font_size=20).next_to(t2, DOWN, buff=1)
-        t4 = Tex("Professor: Dr. Nazerfard", font_size=20).next_to(t3, DOWN, buff=0.2)
+        t1 = Tex("ASR", font_size=60)
+        t2 = Tex("and Whisper", font_size=42).next_to(t1, DOWN, buff=0.5)
+        t3 = Tex("Presenter: Parsa Salamatipour", font_size=20).next_to(t2, DOWN, buff=1)
+        t4 = Tex("Novavira", font_size=20).next_to(t3, DOWN, buff=0.2)
         title = VGroup(
             t1, t2, t3, t4
         ).move_to(ORIGIN)
