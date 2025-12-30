@@ -4,14 +4,10 @@ from manim_slides.slide import ThreeDSlide
 from util.slide_number import SlideNumber
 from util.title import TitleUtil
 
-from src.introduction import IntroductionSlides
-
-class ASRSlides:
+class IntroductionSlides:
     def __init__(self, scene: ThreeDSlide, slide_number: SlideNumber):
         self.scene = scene
         self.slide_number = slide_number
-        self.title_util = TitleUtil(scene)
 
-    def show(self):
-        self.title_util.show(r"section*{What is ASR}")
-        
+    def what_is_asr(self):
+        pass
