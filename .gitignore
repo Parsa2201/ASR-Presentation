@@ -1,0 +1,27 @@
+# Manim generated files
+/media
+/videos
+/images
+/slides
+/slides_assets
+__pycache__/
+
+# Manim cache files
+*.pyc
+.cache
+
+# Python environment
+.venv
+venv
+ENV
+
+# IDE files
+.vscode
+.idea
+.DS_STORE
+
+# Optional: if you use a custom config file
+# /custom_config.yml
+.manim-slides.toml
+slides.html
+manim.cfg
